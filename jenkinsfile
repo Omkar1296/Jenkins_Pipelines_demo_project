@@ -2,13 +2,13 @@ pipeline{
 agent any
 stages{
 stage('Build'){
-step{
+steps{
 echo "Build is done successfully...."
 }
 }
 stage('Deploy'){
-stage{
-echo "Deploy is completed"
+steps{
+echo "Deploy is completed........"
 }
 }
 }
